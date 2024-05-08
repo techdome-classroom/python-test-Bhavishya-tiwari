@@ -11,6 +11,7 @@ class Solution:
         while i<n:
             while j<m:
                 if g[i][j]=='L':
-
+                    cnt +=1
+                    dfs(g,i,j)
                     
         return 0
