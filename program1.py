@@ -15,6 +15,9 @@ class Solution:
         if chk(g,i+1,j)==1:
             dfs(g,i+1,j)
         
+        if chk(g,i+1,j)==1:
+            dfs(g,i+1,j)
+        
 
 
 
