@@ -9,7 +9,7 @@ class Solution:
             
         return 0
     
-    def dfs(g, i, j)->int:
+    def dfs(g, i, j):
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
