@@ -42,6 +42,8 @@ class Solution:
                 if g[i][j]=='L':
                     cnt +=1
                     dfs(g,i,j)
+                j+=1
+            i+=1
         
                     
         return cnt
