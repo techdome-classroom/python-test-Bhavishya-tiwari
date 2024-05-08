@@ -4,6 +4,7 @@ class Solution:
     #    write your code here
         n = len(grid)
         m = len(grid[0])
+        g = grid
         
                     
         return 0
