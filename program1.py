@@ -18,6 +18,12 @@ class Solution:
         if chk(g,i+1,j+1)==1:
             dfs(g,i+1,j+1)
         
+        if chk(g,i,j+1)==1:
+            dfs(g,i+1,j+1)
+        
+        if chk(g,i,j+1)==1:
+            dfs(g,i+1,j+1)
+        
 
 
 
