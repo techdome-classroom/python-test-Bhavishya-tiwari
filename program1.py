@@ -7,9 +7,10 @@ class Solution:
         g = grid
         i = 0
         j=0
+        cnt=0
         while i<n:
             while j<m:
                 if g[i][j]=='L':
-                    
+
                     
         return 0
