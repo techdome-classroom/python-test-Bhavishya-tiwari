@@ -9,6 +9,7 @@ class Solution:
         j=0
         while i<n:
             while j<m:
-                if 
+                if g[i][j]=='L':
+                    
                     
         return 0
