@@ -2,7 +2,8 @@ class Solution:
     def check(g,i,j):
         n = len(g)
         m = len(g[0])
-        if i>=0 and i<n
+        if i>=0 and i<n:
+            
     def dfs(g, i, j):
         n = len(g)
         m = len(g[0])
