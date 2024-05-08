@@ -1,5 +1,5 @@
 class Solution:
-    def chk(g: list[list[str]],i,j)->int:
+    def chk(self, g: list[list[str]],i,j)->int:
         n = len(g)
         m = len(g[0])
         if i>=0 and i<n:
