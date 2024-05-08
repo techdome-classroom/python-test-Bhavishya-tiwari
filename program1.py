@@ -12,7 +12,7 @@ class Solution:
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
-        if chk(g,i+1,j)==1:
+        a1 = chk()
 
 
 
