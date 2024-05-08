@@ -9,6 +9,6 @@ class Solution:
         j=0
         while i<n:
             while j<m:
-                
+                if 
                     
         return 0
