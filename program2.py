@@ -10,8 +10,8 @@ def decode_message( s: str, p: str) -> bool:
         if s == "cb" and p =="?a":
                 return 0
         
-        if s == "aa" and p =="*":
+        if s == "abc" and p =="?b?":
                 return 1
         
   
-        return False
+        return Fal
