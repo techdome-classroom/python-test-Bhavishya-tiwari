@@ -12,9 +12,9 @@ class Solution:
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
-        a1 = chk(g,i,j)
-        if a1==1:
-            dfs(g,i+1)
+        if chk(g,i+1,j)==1:
+            dfs(g,i+1,j)
+        
 
 
 
