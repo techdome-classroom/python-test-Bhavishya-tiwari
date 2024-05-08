@@ -12,7 +12,7 @@ class Solution:
     def dfs(self, g: list[list[str]], i, j):
         n = len(g)
         m = len(g[0])
-        g[i][j]='o'
+        g[i][j]='W'
         if self.chk(g,i+1,j)==1:
             self.dfs(g,i+1,j)
         
