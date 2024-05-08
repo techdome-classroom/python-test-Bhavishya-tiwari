@@ -7,6 +7,8 @@ class Solution:
         g = grid
         i = 0
         j=0
-        for :
+        while i<n:
+            while j<m:
+                
                     
         return 0
