@@ -13,17 +13,17 @@ class Solution:
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
-        if chk(g,i+1,j)==1:
-            dfs(g,i+1,j)
+        if self.chk(g,i+1,j)==1:
+            self.dfs(g,i+1,j)
         
         if chk(g,i-1,j)==1:
-            dfs(g,i-1,j)
+            self.dfs(g,i-1,j)
         
         if chk(g,i,j+1)==1:
-            dfs(g,i,j+1)
+            self.dfs(g,i,j+1)
         
         if chk(g,i,j-1)==1:
-            dfs(g,i,j-1)
+            self.dfs(g,i,j-1)
         
 
 
@@ -46,4 +46,4 @@ class Solution:
             i+=1
         
                     
-        return cnt
+        retur
