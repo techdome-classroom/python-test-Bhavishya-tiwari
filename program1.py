@@ -1,5 +1,5 @@
 class Solution:
-    def chk(g,i,j)->int:
+    def chk(g: list[list[str]],i,j)->int:
         n = len(g)
         m = len(g[0])
         if i>=0 and i<n:
@@ -9,7 +9,7 @@ class Solution:
             
         return 0
     
-    def dfs(g, i, j):
+    def dfs(g: list[list[str]], i, j):
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
