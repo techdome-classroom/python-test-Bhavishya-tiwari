@@ -1,5 +1,5 @@
 class Solution:
-    def check(g,i,j):
+    def chk(g,i,j):
         n = len(g)
         m = len(g[0])
         if i>=0 and i<n:
@@ -12,8 +12,8 @@ class Solution:
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
-        if check(g,i+1,j)==1:
-            
+        if chk(g,i+1,j)==1:
+
 
 
 
