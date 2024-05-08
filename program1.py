@@ -1,4 +1,6 @@
 class Solution:
+    def check(g,i,j):
+        
     def dfs(g, i, j):
         n = len(grid)
         m = len(grid[0])
@@ -6,7 +8,7 @@ class Solution:
 
         ii = i+1
         jj = j
-        
+
 
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
