@@ -3,11 +3,17 @@ class Solution:
         n = len(g)
         m = len(g[0])
         if i>=0 and i<n:
+            if j>=0 and j<m:
+                return 1
             
+        return 0
+    
     def dfs(g, i, j):
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
+        if check(g,i+1,j)==1:
+            
 
 
 
