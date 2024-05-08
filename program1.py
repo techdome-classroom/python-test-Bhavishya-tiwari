@@ -1,5 +1,5 @@
 class Solution:
-    def chk(g,i,j):
+    def chk(g,i,j)->:
         n = len(g)
         m = len(g[0])
         if i>=0 and i<n:
