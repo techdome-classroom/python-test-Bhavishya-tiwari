@@ -14,7 +14,7 @@ class Solution:
         g[i][j]='o'
         a1 = chk(g,i,j)
         if a1==1:
-            
+            dfs(g,i+1)
 
 
 
