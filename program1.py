@@ -1,5 +1,6 @@
 class Solution:
-   def dfs()
+   def dfs(grid, i, j):
+    
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
         n = len(grid)
