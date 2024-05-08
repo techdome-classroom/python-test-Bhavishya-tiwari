@@ -1,7 +1,8 @@
 class Solution:
-    def dfs(grid, i, j):
+    def dfs(g, i, j):
         n = len(grid)
         m = len(grid[0])
+        g[i][j]='o'
         
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
