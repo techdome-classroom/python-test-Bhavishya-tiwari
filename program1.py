@@ -2,10 +2,10 @@ class Solution:
     def check(g,i,j):
         n = len(g)
         m = len(g[0])
-
+        if 
     def dfs(g, i, j):
         n = len(g)
-        m = len(grid[0])
+        m = len(g[0])
         g[i][j]='o'
 
 
