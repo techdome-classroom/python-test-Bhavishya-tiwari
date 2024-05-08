@@ -13,6 +13,8 @@ class Solution:
         m = len(g[0])
         g[i][j]='o'
         a1 = chk(g,i,j)
+        if a1==1:
+            
 
 
 
