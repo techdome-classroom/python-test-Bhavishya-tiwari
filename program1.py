@@ -41,7 +41,7 @@ class Solution:
             while j<m:
                 if g[i][j]=='L':
                     cnt +=1
-                    dfs(g,i,j)
+                    self.dfs(g,i,j)
                 j+=1
             i+=1
         
