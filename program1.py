@@ -1,5 +1,7 @@
 class Solution:
     def check(g,i,j):
+        n = len(grid)
+        m = len(grid[0])
 
     def dfs(g, i, j):
         n = len(grid)
