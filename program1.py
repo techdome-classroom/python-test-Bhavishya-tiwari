@@ -9,7 +9,7 @@ class Solution:
             
         return 0
     
-    def dfs(g: list[list[str]], i, j):
+    def dfs(self, g: list[list[str]], i, j):
         n = len(g)
         m = len(g[0])
         g[i][j]='o'
