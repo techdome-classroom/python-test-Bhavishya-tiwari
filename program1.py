@@ -5,6 +5,8 @@ class Solution:
         n = len(grid)
         m = len(grid[0])
         g = grid
-        
+        i = 0
+        j=0
+        for i<n
                     
         return 0
