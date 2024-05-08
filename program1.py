@@ -16,13 +16,13 @@ class Solution:
         if self.chk(g,i+1,j)==1:
             self.dfs(g,i+1,j)
         
-        if chk(g,i-1,j)==1:
+        if self.chk(g,i-1,j)==1:
             self.dfs(g,i-1,j)
         
-        if chk(g,i,j+1)==1:
+        if self.chk(g,i,j+1)==1:
             self.dfs(g,i,j+1)
         
-        if chk(g,i,j-1)==1:
+        if self.chk(g,i,j-1)==1:
             self.dfs(g,i,j-1)
         
 
@@ -46,4 +46,4 @@ class Solution:
             i+=1
         
                     
-        retur
+        return cnt
