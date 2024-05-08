@@ -1,6 +1,7 @@
 def decode_message( s: str, p: str) -> bool:
 
 # write your code 
+# Simple DP on strings qsn but my first lang in c++
         if s == "aa" and p =="a":
                 return 0
         
