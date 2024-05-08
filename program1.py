@@ -7,6 +7,6 @@ class Solution:
         g = grid
         i = 0
         j=0
-        for i<n
+        for :
                     
         return 0
