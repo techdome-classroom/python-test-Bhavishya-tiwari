@@ -4,7 +4,8 @@ class Solution:
         m = len(g[0])
         if i>=0 and i<n:
             if j>=0 and j<m:
-                return 1
+                if g[i][j]=='L':
+                    return 1
             
         return 0
     
